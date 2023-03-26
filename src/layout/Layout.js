@@ -1,15 +1,19 @@
 import React from "react";
+import GlobalStyles from "../styles/globalStyles";
+import { ThemeProvider } from "styled-components";
 import Navigation from "../components/Navigation/navigation";
 import Footer from "../components/Footer/footer";
-import GlobalStyles from "../styles/globalStyles";
+import theme from "../styles/theme";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyles />
-      <Navigation />
-      <div>{children}</div>
-      <Footer />
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Navigation />
+        <body>{children}</body>
+        <Footer />
+      </ThemeProvider>
     </>
   );
 };
