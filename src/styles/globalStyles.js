@@ -14,13 +14,14 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     background-color: #faf5e9;
-    
-    
   }
 
-  h3 {
-    color: blue;
-    text-decoration: underline ;
+  h1, h2, h3, h4, h5, h6 {
+    color: darkblue;
+    font-weight: bold;
+    padding: 1rem;
+    line-height: 3rem;
+    font-family: 'Press Start 2P', cursive;
   }
 
   

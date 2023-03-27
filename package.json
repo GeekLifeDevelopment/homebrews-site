@@ -4,6 +4,9 @@
   "private": true,
   "description": "homebrews",
   "author": "GeekLifeDevelopment",
+  "engines": {
+    "node": "18.x"
+  },
   "keywords": [
     "gatsby"
   ],
