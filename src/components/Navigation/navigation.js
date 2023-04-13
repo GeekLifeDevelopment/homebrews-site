@@ -19,6 +19,9 @@ const Navigation = () => {
             <a href=''>Log Out</a>
           </li>
         </ul>
+        <ul>
+          <i class='fa-sharp fa-solid fa-gamepad'></i>
+        </ul>
       </nav>
     </NavStyles>
   );
