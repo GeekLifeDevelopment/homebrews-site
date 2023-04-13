@@ -10,6 +10,7 @@ const Navigation = () => {
           <li>Home</li>
           <li>News</li>
           <li>Games</li>
+          <li>Submit</li>
         </ul>
         <ul className='auth-links'>
           <li>
