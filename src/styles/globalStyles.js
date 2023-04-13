@@ -6,6 +6,14 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover{
+      color: #003300;
+    }
+  }
+
   body {
     position: relative;
     min-height: 100vh;
@@ -16,8 +24,8 @@ const GlobalStyles = createGlobalStyle`
     background-color: #faf5e9;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    color: darkblue;
+  .page-heading {
+    color: #000033;
     font-weight: bold;
     padding: 1rem;
     line-height: 3rem;

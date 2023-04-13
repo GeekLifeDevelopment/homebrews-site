@@ -1,5 +1,5 @@
 const colors = {
-  hbGreen: "#ffffff",
+  hbGreen: "#003300",
 };
 
 const theme = {
