@@ -15,13 +15,15 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* min-height: 100vh; */
     margin: 0;
     padding: 0;
-    background-color: #faf5e9;
+    /* background-color: #faf5e9;  */
+    background-color: white ;
+  }
+
+  main {
+
   }
 
   .page-heading {

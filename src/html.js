@@ -22,10 +22,8 @@ export default function HTML(props) {
         />
 
         {/* Font Awesome */}
-        <link
-          rel='stylesheet'
-          href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
-          integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
+        <script
+          src='https://kit.fontawesome.com/a48d28f369.js'
           crossOrigin='anonymous'
         />
       </head>
